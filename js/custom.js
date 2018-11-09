@@ -28,7 +28,7 @@
     }
   });
 
-	var navMain = $(".navbar-collapse"); 
+	var navMain = $(".navbar-collapse");
 	navMain.on("click", "a:not([data-toggle])", null, function () {
 	   navMain.collapse('hide');
 	});
@@ -221,4 +221,5 @@
 $(window).load(function() {
   $(".loader").delay(100).fadeOut();
   $("#page-loader").delay(100).fadeOut("fast");
+  $('#myModal').modal('show');
 });
