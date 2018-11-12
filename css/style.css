@@ -173,7 +173,7 @@ p.ultra {
 }
 
 a {
-    color: #febb88;
+    color: #ff9442;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -1110,7 +1110,7 @@ Testimonial
 =========================== */
 
 #testimonial {
-	background-image: url(../img/background3.jpg);
+	background-image: url(../img/background2.jpg);
 }
 
 .carousel-control.left,.carousel-control.right  {background:none;width:25px; z-index: 999;}
@@ -1227,9 +1227,9 @@ Testimonial
 .company-social .social-facebook a i{background: #88a4fe;}
 .company-social .social-dribble a i{background: #c1f16c;}
 .company-social .social-google a i {background: #fe8888;}
-.company-social .social-facebook a:hover i {background: #febb88;}
-.company-social .social-dribble a:hover i {background: #febb88;}
-.company-social .social-google a:hover i {background: #febb88;}
+.company-social .social-facebook a:hover i {background: #f7dbc1;}
+.company-social .social-dribble a:hover i {background: #f7dbc1;}
+.company-social .social-google a:hover i {background: #f7dbc1;}
 
 
 .carousel-inner > .item {
@@ -1287,7 +1287,7 @@ Testimonial
 ============================ */
 
 footer {
-    background-color: #fff4eb;
+    background-color: #f7dbc2;
 }
 
 footer {

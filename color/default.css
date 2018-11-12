@@ -38,7 +38,7 @@ a:focus {
 
 /* top */
 .top-area {
-	background: #fff4ea;
+	background: #f7dbc2;
 }
 
 /* menu */
@@ -49,7 +49,7 @@ a:focus {
 .navbar-custom.top-nav-collapse .nav li a:hover,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
-    color: #febc88;
+    color: #ff9442;
 }
 
 
