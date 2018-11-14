@@ -173,7 +173,7 @@ p.ultra {
 }
 
 a {
-    color: #ff9442;
+    color: #cca768;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -1227,9 +1227,9 @@ Testimonial
 .company-social .social-facebook a i{background: #88a4fe;}
 .company-social .social-dribble a i{background: #c1f16c;}
 .company-social .social-google a i {background: #fe8888;}
-.company-social .social-facebook a:hover i {background: #f7dbc1;}
-.company-social .social-dribble a:hover i {background: #f7dbc1;}
-.company-social .social-google a:hover i {background: #f7dbc1;}
+.company-social .social-facebook a:hover i {background: #cca768;}
+.company-social .social-dribble a:hover i {background: #cca768;}
+.company-social .social-google a:hover i {background: #cca768;}
 
 
 .carousel-inner > .item {
@@ -1287,7 +1287,7 @@ Testimonial
 ============================ */
 
 footer {
-    background-color: #f7dbc2;
+    background-color: #000;
 }
 
 footer {
@@ -1641,7 +1641,9 @@ a.scrollup i:hover {
 	letter-spacing: 1px;
 	font-weight: 400;	
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 14px;
+	font-size: 10px;
+
+
 
 	font-weight: 700;
 }

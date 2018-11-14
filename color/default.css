@@ -5,7 +5,7 @@
 
 a:hover,
 a:focus {
-    color: #000;
+    color: #a07731;
 }
 
 .circled {
@@ -31,14 +31,14 @@ a:focus {
 
 /* button */
 .btn-skin {
-  background-color: #fdbc88;
-  border-color: #fdbc88;
+  background-color: #cca768;
+  border-color: #cca768;
 }
 
 
 /* top */
 .top-area {
-	background: #f7dbc2;
+	background: #000000;
 }
 
 /* menu */
@@ -49,13 +49,13 @@ a:focus {
 .navbar-custom.top-nav-collapse .nav li a:hover,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
-    color: #ff9442;
+    color: #cca768;
 }
 
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
-    background-color: #fdbc88;
+    background-color: #cca768;
 }
 
 
@@ -72,7 +72,7 @@ a:focus {
 
 /* pricing box  */
 .pricing-content.featured h2,.pricing-content.featured .price-bottom {
-	background-color:#fff4eb;
+	background-color:#cca768;
 }
 .pricing-content.featured h3 {
 	background:#4ACCD1;
