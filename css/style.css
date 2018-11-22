@@ -2104,4 +2104,8 @@ a.btn:focus{
 	margin-bottom: 30px;
 	line-height: 22px  }
 
-
+@font-face {
+font-family: "Bentosa";
+src: url("../fonts/Bentosa.ttf");
+s
+}
