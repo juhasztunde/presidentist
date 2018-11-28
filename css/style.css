@@ -17,7 +17,7 @@ body {
 	font-weight: 300;
     color: #666;
     background-color: #ddd;
-	font-size: 16px;
+	font-size: 18px;
     line-height: 1.6em;
 }
 
@@ -73,7 +73,7 @@ h1 {
 	font-size: 38px;
 }
 h2 {
-	font-size: 70px;
+	font-size: 85px;
 }
 h3 {
 	font-size: 32px;
@@ -977,7 +977,7 @@ Elements
 }
 
 .box h4 {
-	font-size: 24px;
+	font-size: 30px;
 }
 
 .box i {
@@ -1431,7 +1431,7 @@ a.scrollup i:hover {
 .pricing-content h2 {
 	background-color:#666;
 	color:#FFF;
-	font-size:17px;
+	font-size:22px;
 	text-align:center;
 	margin-bottom:0;
 	padding:30px 0;
