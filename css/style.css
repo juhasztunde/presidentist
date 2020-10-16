@@ -333,8 +333,8 @@ Navigation
 }
 
 .navbar-custom ul.nav li a {
-	font-size: 14px;
-	letter-spacing: -0.5px;
+	font-size: 12px;
+	letter-spacing: -0.6px;
     color: #666;
 	text-transform: uppercase;
 	font-weight: 500;
@@ -2107,5 +2107,7 @@ a.btn:focus{
 @font-face {
 font-family: "Bentosa";
 src: url("../fonts/Bentosa.ttf");
-s
 }
+
+
+
