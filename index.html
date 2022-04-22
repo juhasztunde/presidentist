@@ -28,40 +28,60 @@
 
 
 
-<!-- Modal -->
-<!--<div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-<div class="modal-dialog" role="document">
- <div class="modal-content" style="">
-   <div class="modal-header">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-     <h4 class="modal-title" id="myModalLabel"></h4>
-   </div>
-   <div class="modal-body"><a target="_blank" class="" href="palyazat.html"><img style="width: 100%" src="img/palyazat/palyazatielem.jpg"></a>
-   </div>
-   <div class="modal-footer">
-     <button type="button" class="btn btn-primary" data-dismiss="modal" style="text-transform: lowercase;">Bezárás</button>
-   </div>
- </div>
-</div>
-</div>-->
+
 
 
 <!-- Modal -->
 <div class="modal fade in" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 <div class="modal-dialog" role="document">
- <div class="modal-content" style="">
-   <div class="modal-header">
-     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-     <h4 class="modal-title" id="myModalLabel"></h4>
-   </div>
-   <div class="modal-body"><a target="_blank" class="" href="palyazat.html"><img style="width: 100%" src="img/felugro.jpg"></a>
-   </div>
-   <div class="modal-footer">
-     <button type="button" class="btn btn-primary" data-dismiss="modal" style="text-transform: lowercase;">Bezárás</button>
-   </div>
- </div>
+<div class="modal-content" style="">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title" id="myModalLabel"></h4>
+  </div>
+  <div class="modal-body"><a target="_blank" class="" href="palyazat.html"><img style="width: 100%" src="img/felugro.jpg"></a>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-primary iagree" data-dismiss="modal" style="text-transform: lowercase;">Bezárás</button>
+  </div>
 </div>
 </div>
+</div>
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  var iagree = document.getElementsByClassName("iagree")[0];
+
+
+  // When the psge loads, open the modal
+  window.onscroll = function() {
+     if (!localStorage['first']) {
+         localStorage['first'] = 'yes';
+       modal.style.display = "block";
+     }
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks on OK, close the modal
+  iagree.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+  }
+</script>
+
 
 
 
@@ -392,7 +412,7 @@ Mi igyekszünk megvalósítani az egyedi igényeket, megőrizni a régimódi emb
          <div class="wow bounceInUp" data-wow-delay="0.3s">
          <div class="pricing-content featured">
          <ul>
-         <li style="line-height: 3.6em"> 
+         <li style="line-height: 3.6em">
          Fogat mosni mindenki tud….hiszen megtanulta már az óvodában. Biztos benne, hogy az óvónéni tudta hogyan kell? <br>Legyen professzionális a szájhigiéniában is: ismerje meg a legújabb módszert, és az ahhoz tartozó eszközöket!</li>
          <a  href="akademia.html" class="btn btn-skin btn-lg" style="margin-bottom: 30px;">Tovább a fogmosás akadémiára</a>
 

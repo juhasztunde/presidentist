@@ -40,12 +40,45 @@
    <div class="modal-body"><a target="_blank" class="" href="palyazat.html"><img style="width: 100%" src="img/palyazat/palyazatielem_eng.jpg"></a>
    </div>
    <div class="modal-footer">
-     <button type="button" class="btn btn-primary" data-dismiss="modal" style="text-transform: lowercase;">close</button>
+     <button type="button" class="btn btn-primary iagree" data-dismiss="modal" style="text-transform: lowercase;">close</button>
    </div>
  </div>
 </div>
 </div>
+<script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
 
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  var iagree = document.getElementsByClassName("iagree")[0];
+
+
+  // When the psge loads, open the modal
+  window.onscroll = function() {
+     if (!localStorage['first']) {
+         localStorage['first'] = 'yes';
+       modal.style.display = "block";
+     }
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks on OK, close the modal
+  iagree.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+  }
+</script>
 
 
 
@@ -226,7 +259,7 @@
                               <div class="service-box">
                                  <div class="service-desc">
                                     <p style="margin-left: 30px;margin-right: 0px;text-align: center;"><br>The relationship between the patient and the doctor is special. It is built on trust and it is very fragile. The demand for high quality can only be satisfied by precision and first-rate expertise; however, I as a medical practicioner believe empathy must be the key.
-                                    	<br><br> 
+                                    	<br><br>
                                     	Finding the the optimal solution requires care and attention. Resolutions assembled on the production line may be cheaper but also mediocre.
                                     	<br><br>
                                     Our aim is to meet the unique requirements of each patient while keeping old-fashioned human relationships dear but being always restless in technological development.
@@ -419,7 +452,7 @@ At the clinic we are caring for people according to the latest principles of tre
          <div class="wow bounceInUp" data-wow-delay="0.3s">
          <div class="pricing-content featured">
          <ul>
-         <li style="line-height: 3.6em"> 
+         <li style="line-height: 3.6em">
          Everyone can brush their teeth... we learned it in kindergarten. But did the kindergarten teacher knew how to do it?
 Be professional in oral hygiene, learn about the latest methods and tools!
 </li>
@@ -697,7 +730,7 @@ dental assistant
                            <p style="margin-bottom: 40px"></p>
                         </div>
                                  <p style="text-align: justify;">Send us an e-mail at <a style="font-weight: 500" href="mailto:info@presidentist.hu">info@presidentist.hu</a> or call us on <a style="font-weight: 500" href="tel:+36 30 821 7530">+36 30 821 7530</a>. We are also looking forward to seeing you at our Dental Clinic at<a style="font-weight: 500" href="https://www.google.hu/maps/place/Budapest,+Fodor+u.+140,+1124/@47.4872785,18.9885454,17z/data=!3m1!4b1!4m5!3m4!1s0x4741de618f659bb7:0x5a68ee780f7aea9!8m2!3d47.4872749!4d18.9907341">140 Fodor Street, Budapest, 1124</a>.</p>
-                                 
+
                                  <p style="text-align: justify;">Parking is free in the parking lot of the Clinic.<br><br>Access by public transport:<br>From Újbuda centre (ALLEE shopping centre) take bus 53 to the final stop (Mindszenty Jószef bíboros tér).<br>Directions from Újbuda Centre <a style="font-weight: 500" href="https://www.google.com/maps/dir/Budapest,+%C3%9Ajbuda-k%C3%B6zpont/Budapest,+Fodor+u.+140,+1124/@47.4772491,19.0007796,14z/am=t/data=!4m14!4m13!1m5!1m1!1s0x4741ddb18e453d73:0xd9eaeded6e883af7!2m2!1d19.0464151!2d47.4741195!1m5!1m1!1s0x4741de618f659bb7:0x5a68ee780f7aea9!2m2!1d18.9907341!2d47.4872749!3e3">here</a>.<br> <br>From Széll Kálmán square take tram 59 to Márton Áron tér (final stop),then transfer to bus 53 and travel to the last stop.<br>Directions from Széll Kálmán Square Centre <a style="font-weight: 500" href="https://www.google.com/maps/dir/Budapest,+Sz%C3%A9ll+K%C3%A1lm%C3%A1n+t%C3%A9r/Budapest,+Fodor+u.+140,+1124/@47.4736945,19.0302137,12.16z/data=!4m14!4m13!1m5!1m1!1s0x4741dea0e74e6c29:0xcbcc12dee29046e7!2m2!1d19.0227367!2d47.5077219!1m5!1m1!1s0x4741de618f659bb7:0x5a68ee780f7aea9!2m2!1d18.9907341!2d47.4872749!3e3">here</a>.</p>
 
 
@@ -712,7 +745,7 @@ dental assistant
 
 
          <p style="text-align: justify;">
-We are also looking forward to seeing you in our Szeged based Dental Clinic in  
+We are also looking forward to seeing you in our Szeged based Dental Clinic in
  <a style="font-weight: 500"  href="https://www.google.hu/maps/place/Szeged,+G%C3%A9m+u.+14,+6723/data=!4m2!3m1!1s0x4744880eea7e03d5:0xc2225a11e19fb52f?ved=2ahUKEwixuffQl-PeAhVPUlAKHYRAAZIQ8gEwAHoECAMQAQ"> 14 Gém Street, Szeged, 6723</a>.</p>
 
                   <div class="col-sm-12 col-md-12">

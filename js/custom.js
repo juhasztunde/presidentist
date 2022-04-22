@@ -216,10 +216,4 @@
 
   })(jQuery, window, document);
 
-
 })(jQuery);
-$(window).load(function() {
-  $(".loader").delay(100).fadeOut();
-  $("#page-loader").delay(100).fadeOut("fast");
-  $('#myModal').modal('show');
-});
